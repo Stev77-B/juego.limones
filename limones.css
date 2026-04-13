@@ -103,3 +103,21 @@ canvas {
 .botones button:active {
   transform: scale(0.95);
 }
+
+/* Logo superior */
+.logo {
+  margin-bottom: 15px;
+}
+
+.logo img {
+  width: 180px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+/* Animación suave */
+.logo img:hover {
+  transform: scale(1.05);
+}
